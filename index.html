@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,24 +5,75 @@
     <title>Second_Avaliation</title>
   </head>
 
-  <body>
-    <div class="Product">
-      <fieldset>
-        <label for="prod">Produto</label>
-      </fieldset>
-    </div>
-    <div class="Name">
-      <fieldset>
-      <label for="name">Name: </label>
-      <input type="textarea" name="product" value="" placeholder="Insert here: ">
-      <label for="price">Price: </label>
-      <input type="textarea" name="product" value="" placeholder="Insert here: ">
-      <input type="button" name="add" value="ADD">
-      </fieldset>
+  <!--LINKS MATERIALIZE-->
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="materialize/css/stylesheet.css">
 
-    </div>
+<body>
+
+<!--DIV DO BODY TOTAL-->
+<div class="body_full">
 
 
+<!--NAVBAR-->
+<div class="navbar">
+  <nav>
+   <div class="nav-wrapper #1565c0 blue darken-3">
+     <a href="#" class="brand-logo">PRODUCT</a>
+   </div>
+ </nav>
+ </div>
+ <!--NAVBAR-->
 
-  </body>
-</html>
+ <!--INPUTS-->
+ <div class="inputs">
+ <div class="row">
+   <form class="col s12">
+     <div class="row">
+       <div class="input-field col s6">
+         <input  id="name_prod" type="text" class="validate" required="required" placeholder="NAME: ">
+       </div>
+       <div class="input-field col s2">
+         <input id="price_prod" type="text" class="validate" required="required" placeholder="PRICE: ">
+       </div>
+     </div>
+     <!--BUTTON-->
+     <div class="button">
+       <input type="button" name="add" value="ADD PRODUCTS" onclick="createData();">
+       <input type="reset" name="add" value="CORRECT">
+     </div>
+     <!--BUTTON-->
+     </div>
+  </div>
+  <!--INPUTS-->
+
+  <label for="Shopping_Cart">Shoppin Cart</label>
+
+  <!--TABLES//collections materialize-->
+  <div class="collection">
+    <a href="#!" class="collection-item">PRODUCT: </a>
+    <a href="#!" class="collection-item">PRODUCT: </a>
+    <a href="#!" class="collection-item">PRODUCT: </a>
+    <a href="#!" class="collection-item">PRODUCT: </a>
+  </div>
+  <!--TABLES-->
+
+  <!--SOMATÓRIO DOS VALORES-->
+  <div class="total">
+    <fieldset>
+      <label for="total">Total</label>
+    </fieldset>
+
+  </div>
+
+  <!--FOOTER-->
+  <div class="foot">
+    <footer>UNIVERSIDADE DO VALE DO SAPUCAI - UNIVAS - 2016 - PROGRAMAÇÃO WEB - FABIANO JR./EDY SEGURA</footer>
+  </div>
+  </div>
+
+ </body>
+ </html>

@@ -1,0 +1,31 @@
+.nav-wrapper{
+  color: #1565c0 blue darken-3;
+}
+body{
+  font-family: "helvetica";
+}
+.navbar{
+  color: #1565c0 blue darken-3;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%
+  margin: 0 auto;
+}
+.body_full{
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
+}
+.button{
+display: inline-block;
+color: blue;
+padding: 10px 20px;
+text-decoration: none;
+box-sizing: border-box;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 14px;
+border: 0px;
+float: right;
+}
